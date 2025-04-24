@@ -5,21 +5,26 @@ import './App.css'
 import Header from './Header'
 import User from './User'
 import Skills from './Skills'
+import Practice from './Practice'
+import New from './New'
+import Clock from './Clock'
+import Card from './Card'
+import Form from './Form'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-    <Header/>
-    <User/>
-    <br/><br/>
-    <Skills/>
-
-      </div>
-    </>
+  
+   return (
+    <div>
+      
+   <Form/>
+     
+     
+    </div>
+       
+  
+    
   )
 }
+
 
 export default App

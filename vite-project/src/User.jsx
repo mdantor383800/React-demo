@@ -11,7 +11,7 @@ function User() {
             <br/><br/>
             <input type="password" value={password}  onChange={(event)=>{setPassword(event.target.value)}} placeholder="Enter Password"/>
             <br/><br/>
-            <input type="email" value={email}  onChange={(event)=>{setEmail(event.target.value)}} placeholder="Enter Your Email"/>
+            <input type="email" value={email} onChange={(event)=>{setEmail(event.target.value)}} placeholder="Enter Your Email"/>
             <br/><br/>
             <button>Submit</button>
             <button onClick={()=>{setName(''); setPassword(''); setEmail('')}}>Delete</button>
