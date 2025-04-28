@@ -10,13 +10,14 @@ import New from './New'
 import Clock from './Clock'
 import Card from './Card'
 import Form from './Form'
+import NewPost from './NewPost'
 
 function App() {
   
    return (
     <div>
       
-   <Form/>
+   <NewPost/>
      
      
     </div>
